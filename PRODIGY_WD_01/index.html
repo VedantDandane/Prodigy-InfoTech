@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Fixed Navigation Menu -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">NavPro</a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero-section">
+        <div class="hero-content">
+            <span class="tagline">Web Development Internship Task</span>
+            <h1>Interactive Navigation Menu</h1>
+            <p>
+                A fixed navigation bar that changes its style on scroll and highlights menu items on hover.
+                Built using HTML, CSS, and JavaScript.
+            </p>
+            <a href="#about" class="btn">Explore Project</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section light-section">
+        <div class="container">
+            <h2>About This Project</h2>
+            <p>
+                This project demonstrates a responsive and interactive navigation menu. The menu stays fixed at
+                the top of the screen and remains visible while scrolling through the page.
+            </p>
+            <div class="cards">
+                <div class="card">
+                    <h3>Fixed Navbar</h3>
+                    <p>The navigation bar remains visible on all sections of the webpage.</p>
+                </div>
+                <div class="card">
+                    <h3>Scroll Effect</h3>
+                    <p>The background, shadow, and size of the navbar change when the page is scrolled.</p>
+                </div>
+                <div class="card">
+                    <h3>Hover Effect</h3>
+                    <p>Menu items change color and style when the user hovers over them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section dark-section">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-box">
+                    <h3>HTML Structure</h3>
+                    <p>Clean semantic HTML is used to structure the navigation menu and page sections.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Professional CSS</h3>
+                    <p>Modern styling, transitions, shadows, gradients, and responsive design are included.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>JavaScript Interactivity</h3>
+                    <p>JavaScript detects scrolling and adds dynamic classes to update the navbar style.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section light-section">
+        <div class="container">
+            <h2>Project Preview</h2>
+            <p>
+                Scroll this page and hover over the navigation menu items to see the interactive effects.
+                On smaller screens, the menu turns into a mobile-friendly hamburger menu.
+            </p>
+            <div class="preview-box">
+                <div class="preview-card">Hover Menu Items</div>
+                <div class="preview-card">Scroll Page</div>
+                <div class="preview-card">Responsive Design</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>This section completes the single-page website and shows that the fixed navigation is visible on all sections.</p>
+            <a href="#home" class="btn secondary-btn">Back to Top</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 NavPro. Interactive Navigation Menu Project.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
